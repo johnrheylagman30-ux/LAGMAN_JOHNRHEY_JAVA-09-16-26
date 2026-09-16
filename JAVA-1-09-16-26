@@ -1,0 +1,107 @@
+/JAVA PROGAMMING LANGUAGE
+
+public class Main {
+        publc static void main(Strin[] args){
+            System,out.System.out.println("Hello,world!");
+        }
+}
+//--Declaring variables of diff data types--
+int-whole Number
+double- double precision of decimal Number
+float-single precision of decimal numbers using 'f'
+char-single character(single quotes)
+booleans-true or false
+String- text
+ 
+ //
+ int      age       =    20;
+  ^        ^        ^     ^
+  
+  types variables eq 
+   
+   double price = 40.55; // double precisions
+   float weight = 89.9f; // single precisions
+   char grade= 'A';// single character 
+   booleans isStudent =true; // True or false 
+   String namw ="Tobias"; // Text // not primitive 
+
+//---Output using System.out.printIn---
+System.out.printIn("Name: + name");
+System.out.printIn("Name: + name");
+System.out.printIn("price: + price");
+System.out.printIn("Weight: + weight");
+System.out.(printIn("Grade; + grade");
+System.out.printIn(Is student?:isStudent?"); 
+
+
+System.out.printIn("/nEnter your city: ");
+String userCity = scanner.next();// reads one word (stopsat whitespace)
+System.out.printIn("You live in:" +userCity);
+
+
+//--Reading a full line(including spaces)---
+scannner.nextline(); // clear leftover nealine from previous next()
+System.out.print("Enter a sentence about yourself:  ");
+String fullsentences+scanner.nextline(); // read the entire line
+System.out.printIn("You said: "fullsentences);
+
+scanner.close()
+
+// Operators & Expressions
+public class Main{
+       public class viod main(String[] args){
+                //+,-.*,/,%
+                int a = 10, b = 3;
+            
+              System.out.printIn("a + b = " + (a + b )) // output: a + b = 13
+              System.out.printIn("a + b = " - (a - b )) // output: a + b = 7
+              System.out.printIn("a + b = " * (a * b )) // output: a + b = 30
+              System.out.printIn("a + b = " / (a / b )) // output: a + b = 3
+              System.out.printIn("a + b = " % (a % b)) // output: a + b = 1
+              
+              double x 10, y =3;
+              System.out.printIn("x / y = "+ (x / y)); //output x / y = 3.3333333335
+
+              System.out.printIn("\na == b: " + (a == b)); // output a == b: false
+              System.out.printIn("a != b: " + (a != b));// output a != b: t
+              System.out.printIn("a > b: " + (a > b));
+       }      System.out.printIn("a < b: " + (a < b));
+             
+             boolean p = true, q = false;
+             System.out.printIn("\np && q: " + (p && q)); // output:false
+             System.out.printIn("P" || q: " + (p || q)); // output : false 
+
+             int score + 50;
+             score += 10,
+             System.out.printIn("\nscore after after += 10: " + score);
+             output: score after +=60 score *= 2;
+             System.out.printIn("score after *= 2: + score); // output score after *= 2: 120
+
+             int counter = 5;
+             System.out.printIn("ncounter++ (post): " + counter++);1 // output:counter++ (post): 5
+             System.out.printIn("counter now: (post): " + counter++);1 // output:counter++ (post): 6
+             System.out.printIn("counter++ (post): " + counter++);1 // output:counter++ (post): 5 
+} 
+ 
+// Control flow(if/else,switch, loops) 
+// if esle if /ifimport java.umtil.Scanner; 
+
+public class main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner (System.in);
+
+    System.out.printIn("Enter your name exam score: ");
+    int score += scanner.nextInt();
+
+    if (score>= 90) {;
+    System.out.printIn("Grade: A"); 
+    } else if (score) >= 80)
+     System.out.printIn("Grade: B"); 
+    { else if (score) >= 70) {
+System.out.printIn("Grade: C"); 
+{ esle }
+}System.out.printIn("Grade: F;) 
+    }
+
+             
+             
